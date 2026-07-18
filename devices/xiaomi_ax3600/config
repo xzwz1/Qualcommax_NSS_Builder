@@ -174,3 +174,21 @@ CONFIG_BUSYBOX_CONFIG_DEVMEM=y
 ## reboots in the board's ramoops region; the image archives them to
 ## /root/pstore on the next boot.
 CONFIG_PACKAGE_kmod-ramoops=y
+
+
+## OpenClash full offline runtime (pinned via xzwz_packages feed)
+## The upstream default config keeps the service disabled until the user adds
+## a subscription/config and enables it explicitly.
+CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_openclash-core=y
+CONFIG_PACKAGE_bash=y
+CONFIG_PACKAGE_ca-bundle=y
+CONFIG_PACKAGE_ip-full=y
+CONFIG_PACKAGE_unzip=y
+CONFIG_PACKAGE_ruby=y
+CONFIG_PACKAGE_ruby-yaml=y
+CONFIG_PACKAGE_dnsmasq-full=y
+CONFIG_PACKAGE_kmod-tun=y
+CONFIG_PACKAGE_kmod-nft-tproxy=y
+CONFIG_PACKAGE_kmod-inet-diag=y
+CONFIG_PACKAGE_luci-compat=y
