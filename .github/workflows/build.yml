@@ -25,7 +25,8 @@ env:
   UPSTREAM_REPO: JuliusBairaktaris/openwrt-nss-edma
   UPSTREAM_REF: nss-edma-rework
   NSS_REPO: JuliusBairaktaris/nss-packages
-  NSS_REF: edma-nss\n  PLUGIN_FEED_REV: 0b35d296767b085c798da375b71629b7414eef39
+  NSS_REF: edma-nss
+  PLUGIN_FEED_REV: 0b35d296767b085c798da375b71629b7414eef39
   TARGET: qualcommax/ipq807x
   DEVICE: xiaomi_ax3600
   VARIANT: edma-nss
