@@ -33,7 +33,7 @@ env:
   KEEP: "2"                     # newest releases to retain
   FEEDS: |
     src-git nss https://github.com/JuliusBairaktaris/nss-packages.git;edma-nss
-    src-git xzwz_packages https://github.com/xzwz1/openwrt-packages.git;e0b7a7c456374fd270de7738f80f2f43908b0a28
+    src-git xzwz_packages https://github.com/xzwz1/openwrt-packages.git;ax3600-20260718
 
 jobs:
   check:
