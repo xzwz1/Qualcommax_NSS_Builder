@@ -31,7 +31,9 @@ env:
   VARIANT: edma-nss
   RELEASE_PREFIX: edma-nss-openclash
   KEEP: "2"                     # newest releases to retain
-  FEEDS: |\n    src-git nss https://github.com/JuliusBairaktaris/nss-packages.git;edma-nss\n    src-git xzwz_packages https://github.com/xzwz1/openwrt-packages.git;e0b7a7c456374fd270de7738f80f2f43908b0a28
+  FEEDS: |
+    src-git nss https://github.com/JuliusBairaktaris/nss-packages.git;edma-nss
+    src-git xzwz_packages https://github.com/xzwz1/openwrt-packages.git;e0b7a7c456374fd270de7738f80f2f43908b0a28
 
 jobs:
   check:
