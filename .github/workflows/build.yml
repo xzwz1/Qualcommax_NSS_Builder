@@ -26,7 +26,7 @@ env:
   UPSTREAM_REF: nss-edma-rework
   NSS_REPO: JuliusBairaktaris/nss-packages
   NSS_REF: edma-nss
-  PLUGIN_FEED_REV: 47584137b4f8ac18ce8eee88cfe68da790ece857
+  PLUGIN_FEED_REV: ef826de67f4731f060a6b5d6edbbb703d6686e94
   TARGET: qualcommax/ipq807x
   DEVICE: xiaomi_ax3600
   VARIANT: edma-nss
